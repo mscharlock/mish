@@ -14,7 +14,7 @@ font-family: 'Vampiro One', cursive;*/
 .hero {
   background-image: url('./imgs/bokeh.jpg');
   background-attachment: fixed;
-  height: 450px;
+  height: 350px;
   margin-top: 0;
   text-align: center;
 }
@@ -22,6 +22,8 @@ font-family: 'Vampiro One', cursive;*/
 .sparkles p {
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
+  color: black;
+  text-shadow: 3px 3px 5px #5571a7;
 }
 
 h1 {
@@ -36,14 +38,40 @@ h1, h2, h3, h4 {
   font-family: 'Vampiro One', cursive;
 }
 
+h2, h3, h4 {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
 
+nav {
+  height: 200px;
+  width: 50px;
+  position: absolute;
+  background-color: white;
+  top: 250px;
+  color: black;
+  border-radius: 3px;
+}
+
+nav ol li {
+  padding: 10px;
+}
 
 .skills {
   background-image: url('./imgs/holo1.jpg');
   background-size: cover;
+  height: 400px;
 }
 
 .edu {
   background-image: url('./imgs/holo2.jpg');
   background-size: cover;
+  height: 400px;
+}
+
+p {
+  text-indent: 30px;
+  padding: 20px;
 }
