@@ -1,0 +1,49 @@
+body {
+  background-color: #000;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*font-family: 'Kumar One', cursive;
+font-family: 'Nunito', sans-serif;*/
+/*font-family: 'Codystar', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Vampiro One', cursive;*/
+
+
+.hero {
+  background-image: url('./imgs/bokeh.jpg');
+  background-attachment: fixed;
+  height: 450px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.sparkles p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
+
+h1 {
+  color: black;
+  padding-top: 70px;
+  text-shadow: 3px 3px 3px #f6f1f1;
+  line-height: 1.2;
+}
+
+h1, h2, h3, h4 {
+  font-size: 100px;
+  font-family: 'Vampiro One', cursive;
+}
+
+
+
+.skills {
+  background-image: url('./imgs/holo1.jpg');
+  background-size: cover;
+}
+
+.edu {
+  background-image: url('./imgs/holo2.jpg');
+  background-size: cover;
+}
